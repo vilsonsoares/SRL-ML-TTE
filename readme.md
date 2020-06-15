@@ -1,8 +1,8 @@
-#Paper: Machine Learning applied to support medical decision in Transthoracic echocardiogram exams: A Systematic Review
+# Paper: Machine Learning applied to support medical decision in Transthoracic echocardiogram exams: A Systematic Review
 
 # Complementary material
 
-##Lista de Siglas:
+## Lista de Siglas:
 
 ECHO - echocardiogram <br/>
 DHC  - diagnose heart diseases <br/> 
@@ -114,7 +114,7 @@ PSA-APEX  - Parasternal Short-Axis apex <br/>
 SC4C      - Subcostal Four-Chamber <br/>
 SCVC      - Vena Cava Inferior <br/>
 
-##Table I -  CARDIAC VISION IMAGE ACQUISITION  PLAN
+## Table I -  CARDIAC VISION IMAGE ACQUISITION  PLAN
 Id   | Ref.                  |  dim.  | Patients | Vision                    |  TL     | Task | Techniques   | Metrics   | Precision 
 :---: | --------------------  |  :----: | :--------: | ------------------------- |:-------: |:----: | ----------   | ----------| ---------- 
 1    | Balaji et. al (2015)  |  2D    | 200      | A2C, A4C, PSA, PLA        | Sup     | C    | BPNN, SVM    | Acc       | 0.875 
@@ -127,7 +127,7 @@ Id   | Ref.                  |  dim.  | Patients | Vision                    |  
 8    | Ostvik et. al (2019)  |  2D/3D | 470      | A2C, A4C, ALA, PLA, PSA, SC4C, SCVC | Sup     | C    | CNN          | Acc       | 0.983
 9    | Zhu et. al (2018)     |  3D    | -        | A4C, A2C, A3C,PSAM, PSAP, PSA-APEX  | Sup     | C    | Hough Forest | Acc       | 0.804 
 
-##Table II - ANALYSIS OFCARDIACFUNCTIONS
+## Table II - ANALYSIS OFCARDIACFUNCTIONS
 
 Id    | Ref.                       | Disease    | dim. | Patients | Vision  |  TL      | Task | Techniques  | metrics | Precision 
 :---: | ----                       | -------    | ---- | -------- | ------  |  --      | ---- | ----------  | -------|--------- 
@@ -156,7 +156,7 @@ Id    | Ref.                       | Disease    | dim. | Patients | Vision  |  T
 32    |Kusunose et. al (2019)      | CWM        | 2D   | 400      | -       | Sup.     | C  | DCNN            |  Acc   | 0.917
 33    |Omar et. al (2018)          | MWM        | 2D+T | -        | A4C     | Sup.     | C  | CNN             |  Acc<br/> Esp<br/>Sens | 0.854 <br/> 0.776 <br/> 0.928
  
-##Table III - DETECTION  OF CARDIAC DISEASE
+## Table III - DETECTION  OF CARDIAC DISEASE
 
 Id    | Ref.                       | Disease    | dim. | Patients | Vision  |  TL      | Task | Techniques  | metrics | Precision 
 :---: | ----                       | -------    | ---- | -------- | ------  |  --      | ---- | ----------  | -------|--------- 
