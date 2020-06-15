@@ -2,7 +2,7 @@
 
 # Complementary material
 
-## Lista de Siglas:
+## Acronym List:
 
 ECHO - echocardiogram <br/>
 DHC  - diagnose heart diseases <br/> 
